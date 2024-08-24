@@ -1,3 +1,5 @@
+>>> Week 9 <<<
+
 The “Fundamentals and Core Concepts of React” project is designed to introduce you to the essential elements of React, a popular JavaScript library for building user interfaces. This project aims to provide a solid foundation in React by guiding you through the creation and modification of basic React applications and components. By engaging with this project, you will gain practical experience in setting up React applications, understanding JSX, and working with components and props.
 
 Objectives
@@ -28,7 +30,7 @@ Ensure proper integration and functionality of the combined components within th
 
 
 
-
+>>> Week 10 <<<
 
 In the “Styling, States, Rendering, Routes, and Hooks” project, you will enhance your React application by applying inline CSS styling, managing state with hooks, implementing routing, and refactoring to use the Context API. This project is designed for novice learners who aim to build robust and well-structured React applications. By the end of this project, you will have a comprehensive understanding of React’s core concepts and best practices for creating interactive and maintainable web applications.
 
@@ -47,3 +49,25 @@ Create a multi-page React application using React Router for routing.
 Refactor Prop Drilling to Use Context API:
 
 Simplify data flow in your React application by refactoring to use the Context API.
+
+
+
+>>> Week 11 <<<
+
+In the “State Management in React” project, you will learn to manage state effectively in a React application using Zustand. This project will cover essential concepts and techniques for state management, culminating in the creation of a Recipe Sharing Application. By integrating Zustand, you will enhance your ability to manage complex state interactions in a scalable and maintainable way.
+
+Learning Objectives
+By the end of this project, you will be able to:
+
+Understand and Utilize Zustand for State Management:
+
+Learn the basics of Zustand and how to integrate it into a React application for efficient state management.
+Manage State with Zustand:
+
+Implement and manage application state using Zustand, including creating stores and defining state actions.
+Explore Advanced Zustand Features:
+
+Utilize advanced features of Zustand to handle more complex state management scenarios.
+Build a Todo List Application Using Zustand:
+
+Apply your knowledge by building a functional Recipe Sharing Application that includes adding, editing, deleting, and managing recipes using Zustand for state management.
