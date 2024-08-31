@@ -1,3 +1,44 @@
+// import { useState } from "react";
+
+// const RegistrationForm = () => {
+//     const [formData, setFormData] = useState({ username: '', email: '',  password: ''});
+//   const handleValues = (e) => {
+//     const { name, value } = e.target;
+//     setFormData(prevState => ({ ...prevState, [name]: value }));
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     console.log(formData);
+// };
+
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <input
+//         type='text'
+//         name='username'
+//         id='username'
+//         value={formData.username}
+//         onChange={handleValues}
+//       />
+//       <input type='email' name='email' id='email' value={formData.email} onChange={handleValues} />
+//       <input
+//         type='password'
+//         name='password'
+//         id='password'
+//         value={formData.password}
+//         onChange={handleValues}
+//       />
+//       <button type="submit"></button>
+//     </form>
+//   );
+// };
+
+// export default RegistrationForm;
+
+
+
+
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
@@ -7,6 +48,7 @@ const validationSchema = Yup.object({
     email: Yup.string().email('Invalid email').required('Email is required'),
     password: Yup.string().required('password is required')
 });
+
 
 
 const RegistrationForm = () => (
