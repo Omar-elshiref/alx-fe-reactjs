@@ -1,8 +1,35 @@
+import {  createContext , useState, useContext} from 'react'
 
-const ProtectedRoute = () => {
+export const AuthContext = createContext(null) 
+
+export const ProtectedRoute = ( {children} ) => {
+
+    const [user , setUser] = useState(null)
+
+    const login = (user)=>{
+        setUser(user)
+    }
+    const logout = ()=>{
+        setUser(null)
+    }
+
   return (
-    <div>ProtectedRoute</div>
+        <AuthContext.Provider value={{user , login , logout}}>
+            {children}
+        </AuthContext.Provider>
   )
 }
+export const useAuth = () => {
+    return useContext(AuthContext)
+} 
 
-export default ProtectedRoute
+export const ProtectedRoute = ({ children }) => {
+    const { user } = useAuth();
+  
+    if (!user) {
+      return <Navigate to="/login" />;
+    }
+  
+    return children;
+  };
+
