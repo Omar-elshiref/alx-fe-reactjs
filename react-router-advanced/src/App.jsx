@@ -16,7 +16,7 @@ function App() {
           <Route path='/' element={<h2>Home</h2>} />
           {/* Route to Dashboard component */}
           <Route path='/blog' element={<Blog />} />
-          <Route path='/blog/:userId' element={<BlogPost />} />
+          <Route path='/blog/:Id' element={<BlogPost />} />
           <Route path='/Profile/*' element={<Profile />} />
         </Routes>
       </div>
