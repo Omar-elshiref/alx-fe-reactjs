@@ -21,7 +21,7 @@ function App() {
           <Route path='/' element={<h2>Home</h2>} />
           <Route path="/blog/:id" element={<Blog />} />
           <Route path="/blog/:id" element={<BlogPost />} />
-          <Route path='/Profile/*' element={<Profile />} />
+          <Route path='/profile/*' element={<Profile />} />
           {!auth.user && (<Route path='/login' element={<Login />} />)}
           
         </Routes>
