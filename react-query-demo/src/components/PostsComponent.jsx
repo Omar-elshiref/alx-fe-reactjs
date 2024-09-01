@@ -1,7 +1,5 @@
 import { useQuery } from "react-query";
 
-// function to fetch post
-
 const fetchPosts = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
   if (!response.ok) {
@@ -11,13 +9,11 @@ const fetchPosts = async () => {
 };
 
 const PostsComponent = () => {
-  // use the useQuery hoo to fetch data
 
   const { data, error, isLoading, isError, refetch } = useQuery(
     ["posts"],
     fetchPosts,
     {
-      //cache data for 5 minutes
 
       cacheTime: 1000 * 60 * 5,
       staleTime: 1000 * 60,
