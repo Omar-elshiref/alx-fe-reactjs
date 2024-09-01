@@ -13,8 +13,8 @@ function App() {
         </nav>
         <Routes>
           <Route path='/' element={<h2>Home</h2>} />
-          <Route path="/blog/:Id" element={<Blog />} />
-          <Route path="/blog/:Id" element={<BlogPost />} />
+          <Route path="/blog/:id" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
           <Route path='/Profile/*' element={<Profile />} />
         </Routes>
       </div>
