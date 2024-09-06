@@ -1,10 +1,11 @@
 import './App.css'
+import UserProfile from './components/UserProfile'
 
 function App() {
 
   return (
     <>
-      <p className='text-4xl font-semibold'>hkg mjhg ghgj</p>
+      <UserProfile />
     </>
   )
 }
