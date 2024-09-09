@@ -93,3 +93,30 @@ Create nested routes, protected routes requiring authentication, and dynamic rou
 Implement and Test React Components:
 
 Build and test a fully functional Todo List component using Jest and React Testing Library to ensure reliable functionality under various scenarios.
+
+
+
+>>> Week 13 <<<
+
+In the “Building React Projects with Tailwind CSS” project, you will learn how to create a responsive and visually appealing Recipe Sharing Platform using React and Tailwind CSS.
+
+By the time you are done with this project, you will cover essential concepts for integrating Tailwind CSS with React, allowing you to build and style web applications efficiently.
+
+NB: Feel free to search for resources or learning material that will enable you to complete this project successfully.
+
+Learning Objectives
+By the end of this project, you will be able to:
+
+Set Up a React Application with Tailwind CSS:
+
+Create a new React project and configure it to use Tailwind CSS for utility-first styling.
+Build and Style a Responsive Home Page:
+
+Develop the Home Page of the Recipe Sharing Platform to display a list of recipes using Tailwind CSS for a responsive and user-friendly layout.
+Create and Style a Recipe Detail Page:
+
+Implement a Recipe Detail Page that provides comprehensive information about each recipe, ensuring it is styled consistently with the Home Page using Tailwind CSS.
+Implement a Responsive Form for Adding New Recipes:
+
+Build a form that allows users to submit new recipes, including validation and responsive design, styled with Tailwind CSS.
+By completing these tasks, you will gain practical experience in using Tailwind CSS with React, enabling you to build modern, responsive web applications with ease.
