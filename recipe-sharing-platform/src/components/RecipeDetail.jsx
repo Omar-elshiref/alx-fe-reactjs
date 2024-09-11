@@ -23,9 +23,17 @@ const RecipeDetail = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-6">{recipe.title}</h1>
       <img src={recipe.image} alt={recipe.title} className="w-full h-64 object-cover mb-4" />
+      <div className="mb-8">
+        <h2 className="text-2xl font-semibold mb-4">Ingredients</h2>
+        <ul className="list-disc list-inside">
+          {recipe.ingredients.map((ingredient, index) => (
+            <li key={index}>{ingredient}</li>
+          ))}
+        </ul>
+      </div>
       <div>
-        <h2 className="text-2xl font-semibold mb-4">Detail</h2>
-        <p className="whitespace-pre-line">{recipe.summary}</p>
+        <h2 className="text-2xl font-semibold mb-4">Instructions</h2>
+        <p className="whitespace-pre-line">{recipe.instructions}</p>
       </div>
     </div>
   );
