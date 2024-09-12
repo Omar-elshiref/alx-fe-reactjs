@@ -35,7 +35,7 @@ const AddRecipeForm = () => {
         <input type='text' name='recipe-title' id='recipe-title' onChange={(e) => setRecipe(e.target.value)} />
         <label htmlFor='ingredients'>ingredients</label>
         <textarea type="text" name='ingredients' id='ingredients' onChange={(e) => setIngredients(e.target.value)}></textarea>
-        <label htmlFor='preparation'>preparation</label>
+        <label htmlFor='preparation'>preparation steps</label>
         <textarea type="text" name='preparation' id='preparation' onChange={(e) => setPreparation(e.target.value)}></textarea>
         <button onClick={handleSubmit} className='text-white bg-indigo-700 mt-4 inline-block p-2 rounded-lg hover:bg-indigo-950'>Submit</button>
       </form>
