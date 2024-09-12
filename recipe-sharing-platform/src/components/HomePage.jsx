@@ -20,18 +20,18 @@ const HomePage = () => {
         {recipes.map((recipe) => (
           <div
             key={recipe.id}
-            className='bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition duration-300'>
+            className='bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transition duration-300 border-2 border-orange-100	'>
             <img
               src={recipe.image}
               alt={recipe.title}
               className='w-full h-40 object-cover'
             />
-            <div className='p-4'>
-              <h2 className='text-2xl font-semibold mb-2'>{recipe.title}</h2>
-              <p className='text-gray-600'>{recipe.summary}</p>
+            <div className='p-4 flex flex-col gap-3'>
+              <h2 className='text-2xl font-semibold'>{recipe.title}</h2>
+              <p className='text-gray-600 h-24'>{recipe.summary}</p>
               <Link
                 to={`/recipe/${recipe.id}`}
-                className='text-white bg-indigo-700 mt-4 inline-block p-2 rounded-lg hover:bg-indigo-950'>
+                className='text-white bg-indigo-700 inline-block p-2 rounded-lg hover:bg-indigo-950 text-center'>
                 Recipe Detail
               </Link>
             </div>

@@ -5,7 +5,7 @@
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Spaghetti", "Eggs", "Cheese", "Bacon", "Black Pepper"],
-    "instructions": "1. Cook the spaghetti. Fry the bacon. Mix the eggs and cheese. Combine all together with the spaghetti and serve."
+    "preparation": "1. Cook the spaghetti. Fry the bacon. Mix the eggs and cheese. Combine all together with the spaghetti and serve."
   },
   {
     "id": 2,
@@ -13,6 +13,6 @@
     "summary": "Chunks of grilled chicken cooked in a smooth buttery & creamy tomato-based gravy.",
     "image": "https://via.placeholder.com/150",
     "ingredients": "Chicken Tomatoes Cream Spices",
-    "instructions": "1. Grill the chicken. Make the tomato gravy. Combine the chicken with the gravy. Serve with rice or naan."
+    "preparation": "1. Grill the chicken. Make the tomato gravy. Combine the chicken with the gravy. Serve with rice or naan."
   }
 ]

@@ -33,8 +33,8 @@ const RecipeDetail = () => {
         </ul>
       </div>
       <div>
-        <h2 className="text-2xl font-semibold mb-4">Instructions</h2>
-        <p className="whitespace-pre-line">{recipe.instructions}</p>
+        <h2 className="text-2xl font-semibold mb-4">preparation</h2>
+        <p className="whitespace-pre-line">{recipe.preparation}</p>
       </div>
       </div>
     </div>

@@ -5,7 +5,7 @@
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Spaghetti", "Eggs", "Cheese", "Bacon", "Black Pepper"],
-    "instructions": "1. Cook the spaghetti.\n2. Fry the bacon.\n3. Mix the eggs and cheese.\n4. Combine all together with the spaghetti and serve."
+    "preparation": "1. Cook the spaghetti.\n2. Fry the bacon.\n3. Mix the eggs and cheese.\n4. Combine all together with the spaghetti and serve."
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "summary": "Chunks of grilled chicken cooked in a smooth buttery & creamy tomato-based gravy.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Chicken", "Tomatoes", "Cream", "Spices"],
-    "instructions": "1. Grill the chicken.\n2. Make the tomato gravy.\n3. Combine the chicken with the gravy.\n4. Serve with rice or naan."
+    "preparation": "1. Grill the chicken.\n2. Make the tomato gravy.\n3. Combine the chicken with the gravy.\n4. Serve with rice or naan."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "summary": "A Russian dish of sautéed pieces of beef served in a sauce with smetana (sour cream).",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Beef", "Mushrooms", "Onions", "Sour Cream", "Mustard"],
-    "instructions": "1. Sauté the beef with onions and mushrooms.\n2. Add the sour cream and mustard.\n3. Simmer until the sauce thickens.\n4. Serve over pasta or rice."
+    "preparation": "1. Sauté the beef with onions and mushrooms.\n2. Add the sour cream and mustard.\n3. Simmer until the sauce thickens.\n4. Serve over pasta or rice."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "summary": "A Thai stir-fried rice noodle dish with eggs, tofu, peanuts, and a tangy sauce.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Rice Noodles", "Tofu", "Eggs", "Peanuts", "Tamarind Sauce"],
-    "instructions": "1. Cook the rice noodles.\n2. Stir-fry the tofu and eggs.\n3. Add the noodles and sauce.\n4. Garnish with peanuts and serve."
+    "preparation": "1. Cook the rice noodles.\n2. Stir-fry the tofu and eggs.\n3. Add the noodles and sauce.\n4. Garnish with peanuts and serve."
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "summary": "Mexican dish with folded or rolled tortillas filled with various ingredients.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Tortillas", "Ground Beef", "Lettuce", "Cheese", "Salsa"],
-    "instructions": "1. Cook the ground beef with spices.\n2. Fill tortillas with beef, lettuce, and cheese.\n3. Top with salsa and serve."
+    "preparation": "1. Cook the ground beef with spices.\n2. Fill tortillas with beef, lettuce, and cheese.\n3. Top with salsa and serve."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "summary": "A simple Italian pizza with tomatoes, mozzarella, and fresh basil.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella", "Basil"],
-    "instructions": "1. Roll out the pizza dough.\n2. Spread tomato sauce and add mozzarella.\n3. Bake in the oven.\n4. Garnish with fresh basil and serve."
+    "preparation": "1. Roll out the pizza dough.\n2. Spread tomato sauce and add mozzarella.\n3. Bake in the oven.\n4. Garnish with fresh basil and serve."
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "summary": "A salad of romaine lettuce, croutons, and Caesar dressing.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Romaine Lettuce", "Croutons", "Parmesan", "Caesar Dressing"],
-    "instructions": "1. Toss the lettuce with croutons and Parmesan.\n2. Drizzle with Caesar dressing.\n3. Mix well and serve."
+    "preparation": "1. Toss the lettuce with croutons and Parmesan.\n2. Drizzle with Caesar dressing.\n3. Mix well and serve."
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "summary": "A French Provençal stewed vegetable dish of tomatoes, zucchini, and eggplant.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Tomatoes", "Zucchini", "Eggplant", "Bell Peppers", "Onions"],
-    "instructions": "1. Sauté the vegetables.\n2. Simmer them in a tomato-based sauce.\n3. Serve hot or at room temperature."
+    "preparation": "1. Sauté the vegetables.\n2. Simmer them in a tomato-based sauce.\n3. Serve hot or at room temperature."
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "summary": "A North African dish of poached eggs in a spicy tomato and pepper sauce.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Tomatoes", "Bell Peppers", "Onions", "Eggs", "Spices"],
-    "instructions": "1. Sauté the peppers and onions.\n2. Add tomatoes and spices.\n3. Poach the eggs in the sauce.\n4. Serve with bread."
+    "preparation": "1. Sauté the peppers and onions.\n2. Add tomatoes and spices.\n3. Poach the eggs in the sauce.\n4. Serve with bread."
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "summary": "Deep-fried balls made from ground chickpeas and spices.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Chickpeas", "Garlic", "Onions", "Parsley", "Spices"],
-    "instructions": "1. Blend the chickpeas with garlic, onions, and spices.\n2. Form into balls and fry until golden.\n3. Serve with pita bread and tahini sauce."
+    "preparation": "1. Blend the chickpeas with garlic, onions, and spices.\n2. Form into balls and fry until golden.\n3. Serve with pita bread and tahini sauce."
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "summary": "A Japanese dish with vinegared rice, seafood, and vegetables.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Sushi Rice", "Seaweed", "Fish", "Vegetables", "Soy Sauce"],
-    "instructions": "1. Prepare the sushi rice.\n2. Place the rice on seaweed and add fillings.\n3. Roll and cut into pieces.\n4. Serve with soy sauce and wasabi."
+    "preparation": "1. Prepare the sushi rice.\n2. Place the rice on seaweed and add fillings.\n3. Roll and cut into pieces.\n4. Serve with soy sauce and wasabi."
   },
   {
     "id": 12,
@@ -93,6 +93,6 @@
     "summary": "A rich soup made with caramelized onions and beef broth, topped with cheese.",
     "image": "https://via.placeholder.com/150",
     "ingredients": ["Onions", "Beef Broth", "Cheese", "Baguette"],
-    "instructions": "1. Caramelize the onions.\n2. Add beef broth and simmer.\n3. Serve with toasted baguette and melted cheese on top."
+    "preparation": "1. Caramelize the onions.\n2. Add beef broth and simmer.\n3. Serve with toasted baguette and melted cheese on top."
   }
 ]
