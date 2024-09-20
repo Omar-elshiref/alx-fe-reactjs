@@ -74,7 +74,7 @@ Apply your knowledge by building a functional Recipe Sharing Application that in
 
 
 
->>> Week 12 <<<
+>>> Week 13 <<<
 
 In the “Advanced React and Authentication in React JS” project, you will delve into more sophisticated aspects of React, focusing on advanced form handling, data management, routing, and testing. This project will enhance your skills in creating robust and scalable React applications while integrating essential features such as user authentication and API interactions.
 
@@ -96,7 +96,7 @@ Build and test a fully functional Todo List component using Jest and React Testi
 
 
 
->>> Week 13 <<<
+>>> Week 14 <<<
 
 In the “Building React Projects with Tailwind CSS” project, you will learn how to create a responsive and visually appealing Recipe Sharing Platform using React and Tailwind CSS.
 
@@ -120,3 +120,26 @@ Implement a Responsive Form for Adding New Recipes:
 
 Build a form that allows users to submit new recipes, including validation and responsive design, styled with Tailwind CSS.
 By completing these tasks, you will gain practical experience in using Tailwind CSS with React, enabling you to build modern, responsive web applications with ease.
+
+
+
+>>> Week 15 <<<
+
+In the “Working with APIs” project, you will develop a GitHub User Search Application using React. This project will guide you through integrating with the GitHub API, handling user authentication, and deploying your application to a web hosting platform. You will gain hands-on experience in API interactions, advanced HTTP networking, and deploying web applications.
+
+Learning Objectives
+By the end of this project, you will be able to:
+
+Set Up a React Project for API Integration:
+
+Create and configure a new React application for integrating with external APIs, specifically the GitHub API.
+Develop Basic and Advanced Search Features Using GitHub API:
+
+Implement basic search functionality to fetch and display GitHub user data.
+Enhance the search functionality to include advanced filtering criteria, such as location and repository count.
+Improve User Interface and Experience:
+
+Utilize Tailwind CSS to style your application, ensuring a responsive and visually appealing design.
+Deploy the Application to a Web Hosting Platform:
+
+Deploy your application to Vercel, making it publicly accessible and ensuring it performs well under real-world conditions.
