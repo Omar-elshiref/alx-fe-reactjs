@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const SearchUser = ({ onSearch }) => {
+const Search = ({ onSearch }) => {
   const [username, setUsername] = useState('');
 
   const handleSubmit = (e) => {
@@ -24,4 +24,4 @@ const SearchUser = ({ onSearch }) => {
   );
 };
 
-export default SearchUser;
+export default Search;

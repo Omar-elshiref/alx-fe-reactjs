@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import SearchUser from './components/SearchUser';
+import Search from './components/Search';
 import UserDetails from './components/UserDetails';
-import { fetchGitHubUser } from './services/githubService';
+import { fetchUserData } from './services/githubService';
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -10,7 +10,7 @@ const App = () => {
   const handleSearch = async (username) => {
     try {
       setError('');
-      const userData = await fetchGitHubUser(username);
+      const userData = await fetchUserData(username);
       setUser(userData);
     } catch (err) {
       setError(err.message);
@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div>
       <h1 className='text-center p-10 text-2xl'>GitHub User Search</h1>
-      <SearchUser onSearch={handleSearch} />
+      <Search onSearch={handleSearch} />
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <UserDetails user={user} />
     </div>
