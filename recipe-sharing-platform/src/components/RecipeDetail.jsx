@@ -31,7 +31,7 @@ const RecipeDetail = () => {
       />
       <div className='bg-white rounded-lg shadow-md p-3'>
         <div className='mb-8'>
-          <h2 className='text-2xl font-semibold mb-4'>Ingredients</h2>
+          <h2 className='text-2xl font-semibold mb-4'>instructions or Ingredients</h2>
           <ul className='list-disc list-inside'>
             {recipe.ingredients.map((ingredient, index) => (
               <li key={index}>{ingredient}</li>
@@ -39,7 +39,7 @@ const RecipeDetail = () => {
           </ul>
         </div>
         <div>
-          <h2 className='text-2xl font-semibold mb-4'>preparation</h2>
+          <h2 className='text-2xl font-semibold mb-4'>preparation or instructions</h2>
           <p className='whitespace-pre-line'>{recipe.preparation}</p>
         </div>
       </div>
